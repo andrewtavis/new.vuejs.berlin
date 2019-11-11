@@ -1,8 +1,8 @@
 <template>
-  <SpecialEvent>
+  <LandingPage>
     <h1>{{ page.title }}</h1>
     <rich-text-renderer :document="page.content", :nodeRenderers="{'embedded-entry-block': renderEvent}" />
-  </SpecialEvent>
+  </LandingPage>
 </template>
 
 <page-query>
@@ -15,7 +15,7 @@ query IndexPage {
 </page-query>
 
 <script>
-import SpecialEvent from '@/layouts/SpecialEvent'
+import LandingPage from '@/layouts/LandingPage'
 import RichTextRenderer from '@/lib/contentful-rich-text-vue-renderer'
 import NestedEvent from '@/components/NestedEvent'
 
@@ -23,7 +23,7 @@ export default {
   metaInfo: {
     title: "Vue.js // Berlin"
   },
-  components: { SpecialEvent, RichTextRenderer, NestedEvent },
+  components: { LandingPage, RichTextRenderer, NestedEvent },
   data () {
     return {
     }
