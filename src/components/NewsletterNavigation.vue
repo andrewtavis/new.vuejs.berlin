@@ -13,6 +13,7 @@ query AllNewslettersForNav {
       node {
         title
         slug
+        path
       }
     }
   }
