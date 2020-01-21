@@ -58,5 +58,10 @@ module.exports = {
       }
     }
     */
-  ]
+  ],
+  templates: {
+    ContentfulEvent: '/event/:title',
+    ContentfulNewsletter: '/newsletter/:slug',
+    MarkdownNewsletter: '/archive/newsletter/:slug'
+  }
 }

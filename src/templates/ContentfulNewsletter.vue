@@ -8,6 +8,7 @@
 query ContentfulNewsletter ($path: String!) {
   post: contentfulNewsletter (path: $path) {
     title
+    path
     slug
     details
   }
