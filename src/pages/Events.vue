@@ -28,6 +28,7 @@ query Events {
     edges {
       node {
         title
+        path
         date
         talks {
           id
