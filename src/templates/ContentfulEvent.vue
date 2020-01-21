@@ -8,6 +8,7 @@
 query ContentfulEvent ($path: String!) {
   post: contentfulEvent (path: $path) {
     title
+    path
     date
     address
     headerImage {
