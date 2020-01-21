@@ -33,7 +33,6 @@ query MenuItems {
   newsletters: allContentfulNewsletter (sortBy: "slug", order: DESC, limit: 3) {
     edges {
       node {
-        path
         title
       }
     }
@@ -41,7 +40,6 @@ query MenuItems {
   events: allContentfulEvent (sortBy: "date", order: DESC, limit: 3) {
     edges {
       node {
-        path
         title
       }
     }

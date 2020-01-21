@@ -40,8 +40,6 @@ query Newsletters {
     edges {
       node {
         title
-        path
-        date
         event {
           title
           date
