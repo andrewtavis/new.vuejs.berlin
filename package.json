@@ -2,16 +2,13 @@
   "name": "new.vuejs.berlin",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "dev": "gridsome develop",
-    "graphql": "gridsome explore"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
-  "dependencies": {
-    "@gridsome/source-contentful": "^0.5.2",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.4.0",
-    "gridsome": "^0.7.12",
-    "gridsome-plugin-feed": "^1.0.0",
-    "v-lazy-img": "^0.1.0"
+  "devDependencies": {
+    "@vueuse/core": "^10.5.0",
+    "vitepress": "1.0.0-rc.24",
+    "vue": "^3.3.7"
   }
 }
