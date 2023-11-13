@@ -1,14 +1,26 @@
-# Default starter for Gridsome
+# Vuejs//Berlin
 
-This is the project you get when you run `gridsome create new-project`.
+reachable at https://vuejs.berlin
 
-### 1. Install Gridsome CLI tool if you don't have
+Built with [Vitepress](https://vitepress.dev).
 
-`npm install --global @gridsome/cli`
+## Development
 
-### 2. Create a Gridsome project
+To check out the repo, install all dependencies:
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+```sh
+git checkout https://github.com/VuejsBerlin/new.vuejs.berlin.git vuejs.berlin
+cd vuejs.berlin
+# in case you do not have pnpm installed yet:
+npm i -g pnpm
+pnpm i
+```
+
+To run in dev mode:
+
+
+```sh
+pnpm dev
+```
+
+Most theme related files can be found in .vitepress/theme.
