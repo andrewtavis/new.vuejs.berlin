@@ -28,11 +28,25 @@ p {
   line-height: 1.7em;
 }
 
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  margin: 2em 0 1em;
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-size: 1.5em;
+}
+
 article.content-container {
   display: block;
   width: calc(100vw - 4rem);
   max-width: 40rem;
-  margin: auto;
+  margin: 0 auto 4em;
   padding: 5em 2rem 0;
 }
 
@@ -78,8 +92,11 @@ article.content-container ul>li>p {
   line-height: 2em;
 }
 
-.rendered-markdown h2 {
-  font-size: 1.2em;
+hr {
+  height: 1px;
+  background: #3aa67633;
+  border: none;
+  margin: 0;
 }
 
 .next-event {

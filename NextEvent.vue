@@ -18,6 +18,9 @@ const nextEvent = events.find(event => {
       <a :href="nextEvent.url">{{ nextEvent.frontmatter.title }}</a>
       <span>{{ nextEvent.frontmatter.date.split('T')[0] }}</span>
     </header>
+    <div class="hero" v-if="nextEvent.frontmatter.hero">
+      <img :src="nextEvent.frontmatter.hero" :alt="nextEvent.frontmatter.hero_alt || `${nextEvent.frontmatter.title} hero image`" />
+    </div>
     <div class="rendered-markdown" v-html="nextEvent.excerpt" />
     <footer>
       <a :href="nextEvent.url">Go to Event Page</a>
