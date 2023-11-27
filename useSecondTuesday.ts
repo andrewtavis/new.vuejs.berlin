@@ -1,7 +1,7 @@
-export default function secondTuesday() {
+export default function secondTuesday(month?: number) {
   const today = new Date()
   const year = today.getFullYear()
-  const month = today.getMonth()
+  if (month === undefined) month = today.getMonth()
   // ignoring this would create the first day of month minus the offset,
   // resulting in for example 31st of October 23:00 in GMT+1
   const tzOffset = today.getTimezoneOffset() / -60
@@ -21,8 +21,12 @@ export default function secondTuesday() {
     firstTuesdayOffset = 10 - firstDay
   }
 
-  console.log('first tuesday of this month is', new Date(year, month, firstTuesdayOffset, tzOffset))
-  console.log('second tuesday of this month is', new Date(year, month, firstTuesdayOffset + 7, tzOffset))
+  const result = new Date(year, month, firstTuesdayOffset + 7, tzOffset)
 
-  return new Date(year, month, firstTuesdayOffset + 7, tzOffset)
+  // today is after the second tuesday
+  if (today > result) {
+    return secondTuesday(month + 1)
+  }
+
+  return result
 }

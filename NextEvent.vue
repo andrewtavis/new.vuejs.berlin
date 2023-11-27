@@ -3,8 +3,11 @@ import { data as events } from './events.data'
 import useSecondTuesday from './useSecondTuesday'
 
 const secondTuesday = useSecondTuesday()
+console.log('(next) second tuesday is', secondTuesday)
+
 const nextEvent = events.find(event => {
   const eventDate = new Date(event.frontmatter.date)
+
   const sameYear = eventDate.getFullYear() === secondTuesday.getFullYear()
   const sameMonth = eventDate.getMonth() === secondTuesday.getMonth()
   const sameDay = eventDate.getDate() === secondTuesday.getDate()
