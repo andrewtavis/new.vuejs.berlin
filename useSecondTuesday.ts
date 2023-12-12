@@ -1,5 +1,11 @@
 export default function secondTuesday(month?: number) {
+  // today, right after midnight
   const today = new Date()
+  today.setHours(0)
+  today.setMinutes(0)
+  today.setSeconds(0)
+  today.setMilliseconds(0)
+
   const year = today.getFullYear()
   if (month === undefined) month = today.getMonth()
   // ignoring this would create the first day of month minus the offset,
