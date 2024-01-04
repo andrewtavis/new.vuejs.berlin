@@ -7,8 +7,8 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@vueuse/core": "^10.5.0",
+    "@vueuse/core": "^10.7.1",
     "vitepress": "1.0.0-rc.24",
-    "vue": "^3.3.7"
+    "vue": "^3.4.5"
   }
 }
