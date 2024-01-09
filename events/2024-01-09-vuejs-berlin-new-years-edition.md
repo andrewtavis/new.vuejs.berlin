@@ -19,7 +19,7 @@ Let's talk about Vue.js the Vue.js ecosystem!
 
 <details>
   <summary>
-    K:
+    Kailaash:
     <strong>Short introduction into Card Sorting</strong>
   </summary>
   <p>Card sorting is a technique in user experience design, in which a person tests a group of subject experts or users to generate a category tree. It is a useful approach for designing information architecture, workflows, menu structure, or web site navigation paths. -- Wikipedia</p>
