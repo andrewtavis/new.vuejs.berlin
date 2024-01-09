@@ -17,6 +17,14 @@ Let's talk about Vue.js the Vue.js ecosystem!
   <p>"Build our own framework" sounds like something out of a small company CTO's worst nightmare. Unless you're a huge tech corporation, it is usually best practice to use existing frameworks and focus on implementing features. However, a number of recent libraries and tools are helping us rethink what a framework really is, empowering us to take more control of our tech stacks while improving performance and maintainability. In this talk, I'm going to show you why (and how) we built Taproot, an in-house Vue SSR framework at Ecosia; our design decisions, pitfalls and shifts in mindset; and how this helped us improve Web vitals on our Images vertical by up to 25%.</p>
 </details>
 
+<details>
+  <summary>
+    K:
+    <strong>Short introduction into Card Sorting</strong>
+  </summary>
+  <p>Card sorting is a technique in user experience design, in which a person tests a group of subject experts or users to generate a category tree. It is a useful approach for designing information architecture, workflows, menu structure, or web site navigation paths. -- Wikipedia</p>
+</details>
+
 Slots are open! If you want to have a talk, even if it's just a 10 minutes presentation of your last cat pic app, write us!
 
 ## Swag'n'Goodies 😎

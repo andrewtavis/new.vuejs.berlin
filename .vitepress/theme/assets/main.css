@@ -115,18 +115,31 @@ hr {
   display: block;
   margin: 1em 0;
 }
+
 article.content-container .next-event .hero>img {
   width: 100%;
   margin: 0;
 }
+
+details {
+  margin-bottom: 1em;
+}
+
 details[open] {
   padding: 1em .5em;
   background-color: #EEE;
   border: 1px solid #EEE;
 }
+
 details[open] summary {
   margin: -1em -.5em;
   padding: .5em;
-  padding-bottom: .5em;
   background-color: white;
+}
+
+details[open] p {
+  margin: 2em 0 0;
+  padding: 0 1em;
+  text-align: justify;
+  line-height: 1.5em;
 }
