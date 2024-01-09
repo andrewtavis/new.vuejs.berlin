@@ -44,6 +44,9 @@ const withMenu = ref(false)
     <SideBar @click="withMenu = false" menu-hint />
 
     <article class="content-container">
+      <div class="hero" v-if="frontmatter.hero">
+        <img :src="frontmatter.hero" :alt="frontmatter.hero_alt || `${frontmatter.title} hero image`" />
+      </div>
       <Content />
     </article>
   </div>
