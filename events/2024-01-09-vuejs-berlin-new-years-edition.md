@@ -19,6 +19,15 @@ Let's talk about Vue.js the Vue.js ecosystem!
 
 <details>
   <summary>
+    Romuald & Aurelien:
+    <span title="Lightning Talk">🗱</a>
+    <strong>Vike - Like Nuxt, but as do-one-thing-do-it-well Vite plugin</strong>
+  </summary>
+  <p>Formerly known as Vite-plugin-ssr, Vike is a framework on top of Vite that gives you control over the tools you want. It is used by Taproot and in this lightning talk we will learn more about it.</p>
+</details>
+
+<details>
+  <summary>
     Kailaash:
     <strong>Short introduction into Card Sorting</strong>
   </summary>
