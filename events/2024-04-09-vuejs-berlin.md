@@ -13,7 +13,7 @@ Let's talk about Vue.js the Vue.js ecosystem!
   <summary>
     Cesar Martinez:
     <span title="Talk">🎙</span>
-    <strong>Vuejs Architecture Disasterclass — (DDD Part 2 of 3)</strong>
+    <strong>Vuejs Architecture Disasterclass — (DDD Part 2/3)</strong>
   </summary>
   <p>An introduction into Domain Driven Design, with personal insights and examples. Part 2 of 3 is answering the question: Why current architecture, as learned in most educational resources, is not Domain Driven?</p>
 </details>

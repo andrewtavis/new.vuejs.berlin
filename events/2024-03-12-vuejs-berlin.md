@@ -13,7 +13,7 @@ Let's talk about Vue.js the Vue.js ecosystem!
   <summary>
     Cesar Martinez:
     <span title="Talk">🎙</span>
-    <strong>Domain Driven Design (Part 1 of 3)</strong>
+    <strong>Domain Driven Design (Part 1/3)</strong>
   </summary>
   <p>An introduction into Domain Driven Design, with personal insights and examples. Part 1 of 3 is answering the question: Why is Domain important when making architecture decisions?</p>
 </details>
