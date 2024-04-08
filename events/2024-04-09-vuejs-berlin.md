@@ -24,7 +24,7 @@ Let's talk about Vue.js the Vue.js ecosystem!
     <span title="Talk">🎙</span>
     <strong>Introduction to SVGs</strong>
   </summary>
-  <p>An introduction to SVGs and their syntax, by the Creator of [svg-tutorial.com](https://www.svg-tutorial.com).</p>
+  <p>An introduction to SVGs and their syntax, by the Creator of <a href="https://www.svg-tutorial.com">svg-tutorial.com</a>.</p>
 </details>
 
 ---
