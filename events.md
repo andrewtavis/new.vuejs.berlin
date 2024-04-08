@@ -12,8 +12,6 @@ Our meetups take place monthly every second Tuesday at 19:00. If there are talks
 
 <NextEvent />
 
-# Past Events
-
 <Events />
 
 You can find the original list of past events on our [Meetup Page](https://www.meetup.com/de-DE/Vue-js-Berlin/events/past/). 

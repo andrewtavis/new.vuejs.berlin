@@ -123,6 +123,7 @@ article.content-container .hero>img {
 
 details {
   margin-bottom: 1em;
+  cursor: pointer;
 }
 
 details[open] {
