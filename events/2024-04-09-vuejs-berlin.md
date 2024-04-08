@@ -18,11 +18,21 @@ Let's talk about Vue.js the Vue.js ecosystem!
   <p>An introduction into Domain Driven Design, with personal insights and examples. Part 2 of 3 is answering the question: Why current architecture, as learned in most educational resources, is not Domain Driven?</p>
 </details>
 
+<details>
+  <summary>
+    Borbély Hunor Márton:
+    <span title="Talk">🎙</span>
+    <strong>Introduction to SVGs</strong>
+  </summary>
+  <p>An introduction to SVGs and their syntax, by the Creator of [svg-tutorial.com](https://www.svg-tutorial.com).</p>
+</details>
+
 ---
 
 ## Swag'n'Goodies 😎
+The marvelous people from Wunderdog are not only hosting us, but also have some stickers and other goodies for you!
 
-We also will have Coffee, Mate, Beer …probably Pizza…!
+We also will have Coffee, Mate, Beer …probably Pizza!
 
 ## Code of Conduct 🫶
 
