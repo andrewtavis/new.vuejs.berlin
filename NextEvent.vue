@@ -17,7 +17,8 @@ const { nextEvent } = useEvents()
       <a :href="nextEvent.url">Go to Event Page</a>
     </footer>
   </div>
-  <div class="no-next-event" v-else>
-    The upcoming event is not yet announced.
-  </div>
+  <p class="no-next-event" v-else>
+    The upcoming event is not yet announced but might already be listed in
+    <a href="/events.html#future-events">Future Events</a>
+  </p>
 </template>

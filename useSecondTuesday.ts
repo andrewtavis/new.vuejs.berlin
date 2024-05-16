@@ -28,6 +28,7 @@ export default function secondTuesday(month?: number) {
   }
 
   const result = new Date(year, month, firstTuesdayOffset + 7, tzOffset)
+  console.log('(next) second tuesday is', result)
 
   // today is after the second tuesday
   if (today > result) {

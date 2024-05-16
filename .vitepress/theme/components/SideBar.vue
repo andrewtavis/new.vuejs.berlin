@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import Logo from './Logo.vue'
 
 export interface Props {
-  width: number
+  width?: number
 }
 
 const props = defineProps<Props>()

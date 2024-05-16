@@ -3,8 +3,8 @@ import Logo from './Logo.vue'
 
 export interface Props {
   title: string
-  withMenu: boolean
-  hintMenu: boolean
+  withMenu?: boolean
+  hintMenu?: boolean
 }
 
 defineProps<Props>()
