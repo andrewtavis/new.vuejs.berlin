@@ -30,8 +30,8 @@ export default function useEvents() {
     else if (happensBefore(today, eventDate)) pastEvents.push(event)
   }
 
-  pastEvents.sort((a,b) => a.frontmatter.date.localeCompare(b.frontmatter.date) * -1)
-  futureEvents.sort((a,b) => a.frontmatter.date.localeCompare(b.frontmatter.date))
+  pastEvents.sort((a,b) => a.frontmatter.date.localeCompare(b.frontmatter.date))
+  futureEvents.sort((a,b) => a.frontmatter.date.localeCompare(b.frontmatter.date) * -1)
 
   nextEvent = futureEvents[0]
 
