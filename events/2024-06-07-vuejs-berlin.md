@@ -7,7 +7,13 @@ hero_alt: Pixel-art scenery collage of unicorns and fantasy landscapes in reduce
 ---
 Let's talk about Vue.js the Vue.js ecosystem!
 
-<div class="alert">This time one week earlier than usual!</div>
+<div class="alert">Cancelled!</div>
+
+Unfortunately, the meetup had to be cancelled. Wunderdog cannot host us anymore and we need to find a new venue first.
+
+---
+
+Old page content:
 
 ## Presentation 📽️
 
@@ -38,7 +44,3 @@ We also will have Coffee, Mate, Beer …probably Pizza…!
 ## Code of Conduct 🫶
 
 We follow the Berlin Code Of Conduct and expect every attendee to do the same. More details can be found on [berlincodeofconduct.org](http://berlincodeofconduct.org).
-
-## Our Host: Wunderdog 🐶
-
-We're hosted by the marvelous people of [Wunderdog](https://wunderdog.io), an IT consultancy with offices in Helsinki, Berlin and Málaga. They offer future-proof design and development of all kinds of projects and for all kinds of clients. They are a fantastic place to work. Just talk to us, if you are interested in learning more!
