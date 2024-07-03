@@ -18,14 +18,14 @@ Let's talk about Vue.js the Vue.js ecosystem!
   <p>An introduction into Domain Driven Design, with personal insights and examples. Part 3 of 3 is offering a solution: Hexagonal DDD.</p>
 </details>
 
-<details>
+<!--details>
   <summary>
     Alex Podlubnyj:
     <span title="Talk">🎙</span>
     <strong>NeoViM as IDE</strong>
   </summary>
   <p>A showcase of a sophisticated NeoViM setup, that strives for functionality typically found in IDEs.</p>
-</details>
+</details-->
 
 ---
 
