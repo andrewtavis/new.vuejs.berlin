@@ -13,9 +13,9 @@ Let's talk about Vue.js the Vue.js ecosystem!
   <summary>
     Cesar Martinez:
     <span title="Talk">🎙</span>
-    <strong>Hexagonal Architecture — (DDD Part 3/3)</strong>
+    <strong>Hexagonal Architecture — (DDD Part 3/n)</strong>
   </summary>
-  <p>An introduction into Domain Driven Design, with personal insights and examples. Part 3 of 3 is offering a solution: Hexagonal DDD.</p>
+  <p>An introduction into Domain Driven Design, with personal insights and examples. Part 3 is offering a solution: Hexagonal DDD.</p>
 </details>
 
 <!--details>
