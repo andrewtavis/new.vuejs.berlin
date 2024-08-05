@@ -15,7 +15,7 @@ Let's talk about Vue.js the Vue.js ecosystem!
     <span title="Talk">🎙</span>
     <strong>Hexagonal by Example — (DDD Part 4/n)</strong>
   </summary>
-  <p>An introduction into Domain Driven Design, with personal insights and examples. Part 4 is showcasing Hexagonal Architecture by example.</p>
+  <p>An introduction into Domain Driven Design, with personal insights and examples. Part 4 is showcasing Hexagonal Architecture and its real world benefits.</p>
 </details>
 
 <details>
