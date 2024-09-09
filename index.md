@@ -35,4 +35,7 @@ Please use the subscribe button, to enjoy our future newsletters. The registrati
 <NextEvent />
 
 ---
-[Events Archive](/events) | [Newsletter Archive](/newsletters)
+
+[🗃️ Events Archive](/events) | [🗞️ Newsletter Archive](/newsletters) | [💬 Chat With Us](https://chat.vuejs.berlin)
+
+&nbsp;
