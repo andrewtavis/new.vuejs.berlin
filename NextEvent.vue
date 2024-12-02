@@ -14,7 +14,7 @@ const { nextEvent } = useEvents()
     </div>
     <div class="rendered-markdown" v-html="nextEvent.excerpt" />
     <footer>
-      <a :href="nextEvent.url">Go to Event Page</a>
+      <a :href="nextEvent.frontmatter.luma_url || nextEvent.url">Go to Event Page</a>
     </footer>
   </div>
   <p class="no-next-event" v-else>
