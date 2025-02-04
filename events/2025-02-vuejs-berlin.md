@@ -28,7 +28,7 @@ Slots are open!
     <strong>Lets talk about Vuejs Nation, Vuejs 3.6 and other news!</strong>
   </summary>
   <p>Vuejs Nation happened end of January, where many Vuejs VIPs talked about upcoming features. Lets talk about, what we learned!</p>
-</details-->
+</details>
 
 <!--details>
   <summary>
