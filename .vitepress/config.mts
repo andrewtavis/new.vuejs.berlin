@@ -7,5 +7,6 @@ export default defineConfig({
   lang: 'en',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['script', { 'data-goatcounter': 'https://vuejs-berlin.goatcounter.com/count', async: '', src: '//gc.zgo.at/count.js' }]
   ],
 })
