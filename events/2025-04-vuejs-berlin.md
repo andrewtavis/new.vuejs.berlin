@@ -12,6 +12,24 @@ Let's talk about Vue.js the Vue.js ecosystem!
 
 Slots are open!
 
+<details>
+  <summary>
+    Zahra Mosayebi
+    <span title="Talk">🎙</span>
+    <strong>Performance Optimizations in Vuejs</strong>
+  </summary>
+  <p></p>
+</details>
+
+<details>
+  <summary>
+    All of us
+    <span title="Topic">🗫</span>
+    <strong>Lets talk about what happened at Vuejs Amsterdam!</strong>
+  </summary>
+  <p>Lets share Vuejs conference experiences and news!</p>
+</details>
+
 <!--details>
   <summary>
     Someone
